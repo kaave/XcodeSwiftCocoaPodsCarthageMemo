@@ -48,6 +48,7 @@
 		30161965215B571A00765C4B /* SwiftProjectMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectMemoUITests.swift; sourceTree = "<group>"; };
 		30161967215B571A00765C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30161973215B575C00765C4B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		30161974215B57B300765C4B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		30161939215B571800765C4B = {
 			isa = PBXGroup;
 			children = (
+				30161974215B57B300765C4B /* .swiftlint.yml */,
 				30161973215B575C00765C4B /* .gitignore */,
 				30161944215B571800765C4B /* SwiftProjectMemo */,
 				30161959215B571900765C4B /* SwiftProjectMemoTests */,
@@ -137,6 +139,7 @@
 				3016193E215B571800765C4B /* Sources */,
 				3016193F215B571800765C4B /* Frameworks */,
 				30161940215B571800765C4B /* Resources */,
+				30161975215B57D200765C4B /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -252,6 +255,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30161975215B57D200765C4B /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3016193E215B571800765C4B /* Sources */ = {

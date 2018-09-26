@@ -1,0 +1,46 @@
+# ルール一覧
+# https://github.com/realm/SwiftLint/tree/master/Source/SwiftLintFramework/Rules
+
+# ルール和訳 やや古い
+# http://qiita.com/KAGE_MIKU/items/80e6d905dc0059c342b3
+
+# ========================================================================
+# Core settings
+# ========================================================================
+
+# チェック対象dir プロジェクト名になるだろう テストファイルはしなくていいかと
+included:
+- SwiftProjectMemo
+
+# チェック対象除外dir CocoaPodsやCarthage
+excluded:
+- Pods
+
+# ========================================================================
+# Use rules settings
+# ========================================================================
+# デフォ有効のうち無効化するルール
+disabled_rules:
+- todo
+- variable_name
+- cyclomatic_complexity
+- weak_delegate
+
+# デフォ無効のうち有効化するルール
+# opt_in_rules:
+
+# ========================================================================
+# rules custom params
+# ========================================================================
+
+# 1つだけだとwarningの設定値となる。errorはなし
+line_length: 360
+variable_name:
+min_length:
+warning: 2
+
+
+# 2つ書くと1つ目がwarning, 2つ目がerror
+type_body_length:
+- 400
+- 500
