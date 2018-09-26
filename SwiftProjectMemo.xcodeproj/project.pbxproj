@@ -49,6 +49,7 @@
 		30161967215B571A00765C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30161973215B575C00765C4B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		30161974215B57B300765C4B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		30161976215B582000765C4B /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		30161939215B571800765C4B = {
 			isa = PBXGroup;
 			children = (
+				30161976215B582000765C4B /* Gemfile */,
 				30161974215B57B300765C4B /* .swiftlint.yml */,
 				30161973215B575C00765C4B /* .gitignore */,
 				30161944215B571800765C4B /* SwiftProjectMemo */,
