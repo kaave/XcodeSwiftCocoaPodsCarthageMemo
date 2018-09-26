@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,24 +50,24 @@
 		695367BFCFA9112AC9129BD292C5C1DB /* Pods-SwiftProjectMemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProjectMemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		6C3547661F403841939844F4767D44B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E59081245F94813D48CC84AF61C372A /* Pods-SwiftProjectMemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProjectMemoUITests-dummy.m"; sourceTree = "<group>"; };
-		6F60933BF33C87F2EFCF9CD8B27D013F /* Pods_SwiftProjectMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProjectMemoTests.framework; path = "Pods-SwiftProjectMemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F60933BF33C87F2EFCF9CD8B27D013F /* Pods_SwiftProjectMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		824C060B0CE23B657B5FEF4D5F0577BA /* Pods-SwiftProjectMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProjectMemo.release.xcconfig"; sourceTree = "<group>"; };
 		8A9AFF9B0CCC6B122F65594CFBF7800F /* Pods-SwiftProjectMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProjectMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92412D3F50AB0387D7E59F20EF7A947F /* Pods-SwiftProjectMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProjectMemo.debug.xcconfig"; sourceTree = "<group>"; };
 		928E925A3E4089A484328893296DE8EF /* Pods-SwiftProjectMemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProjectMemoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		9ED2A454C7B62E36C06D531A5E4315C7 /* Pods-SwiftProjectMemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProjectMemo-frameworks.sh"; sourceTree = "<group>"; };
 		A33758960FCEC652B97210E11427F2ED /* Pods-SwiftProjectMemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProjectMemo-umbrella.h"; sourceTree = "<group>"; };
 		AD4908B3ACE98B531872A2E035609BAE /* Pods-SwiftProjectMemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProjectMemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8B46A350B791E73127BB70A400E6D5A /* Pods-SwiftProjectMemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProjectMemoTests-umbrella.h"; sourceTree = "<group>"; };
-		C211236D39B886C158A21FA40768CDCC /* Pods_SwiftProjectMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProjectMemo.framework; path = "Pods-SwiftProjectMemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211236D39B886C158A21FA40768CDCC /* Pods_SwiftProjectMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA99E94631D09FCAA4E1C77867276BCF /* Pods-SwiftProjectMemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProjectMemoUITests-resources.sh"; sourceTree = "<group>"; };
 		D18F5D7F56073A2E5A4D3FD1D332BDB6 /* Pods-SwiftProjectMemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProjectMemo-dummy.m"; sourceTree = "<group>"; };
 		D5D30F0930D66D2920C72834DC6679C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4F2A24A2A15982F804DFE21C4BA2B2 /* Pods-SwiftProjectMemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProjectMemoTests-dummy.m"; sourceTree = "<group>"; };
 		E047CBC11D7B42BA3E7611AA80A0E05F /* Pods-SwiftProjectMemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProjectMemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E09ECFADADAD2C091AFFB7FEFFD82535 /* Pods-SwiftProjectMemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProjectMemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F2D8E51583E8CEACF8B0D4B69B69449A /* Pods_SwiftProjectMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProjectMemoUITests.framework; path = "Pods-SwiftProjectMemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D8E51583E8CEACF8B0D4B69B69449A /* Pods_SwiftProjectMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AB018A328C53C879A2170537385F97 /* Pods-SwiftProjectMemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProjectMemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F87A9D37BEB21E0D9C28F67EA863C099 /* Pods-SwiftProjectMemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftProjectMemoUITests.modulemap"; sourceTree = "<group>"; };
 		FA407D1A66B02CB8002990F5F7A209B7 /* Pods-SwiftProjectMemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftProjectMemo.modulemap"; sourceTree = "<group>"; };
@@ -151,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -417,11 +416,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemo/Pods-SwiftProjectMemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -515,11 +510,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemoUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemoUITests/Pods-SwiftProjectMemoUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -553,11 +544,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemoUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemoUITests/Pods-SwiftProjectMemoUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -656,11 +643,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemoTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemoTests/Pods-SwiftProjectMemoTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -695,11 +678,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemo/Pods-SwiftProjectMemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -733,11 +712,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProjectMemoTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProjectMemoTests/Pods-SwiftProjectMemoTests.modulemap";
 				OTHER_LDFLAGS = "";

@@ -15,6 +15,28 @@
 		30161950215B571900765C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3016194E215B571900765C4B /* LaunchScreen.storyboard */; };
 		3016195B215B571900765C4B /* SwiftProjectMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016195A215B571900765C4B /* SwiftProjectMemoTests.swift */; };
 		30161966215B571A00765C4B /* SwiftProjectMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30161965215B571A00765C4B /* SwiftProjectMemoUITests.swift */; };
+		30531C4D215B62190037E2EE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C42215B62190037E2EE /* SwiftyJSON.framework */; };
+		30531C4E215B62190037E2EE /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C42215B62190037E2EE /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C4F215B62190037E2EE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C43215B62190037E2EE /* RxBlocking.framework */; };
+		30531C50215B62190037E2EE /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C43215B62190037E2EE /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C51215B62190037E2EE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C44215B62190037E2EE /* Alamofire.framework */; };
+		30531C52215B62190037E2EE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C44215B62190037E2EE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C53215B621A0037E2EE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C45215B62190037E2EE /* RxSwift.framework */; };
+		30531C54215B621A0037E2EE /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C45215B62190037E2EE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C55215B621A0037E2EE /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C46215B62190037E2EE /* SnapKit.framework */; };
+		30531C56215B621A0037E2EE /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C46215B62190037E2EE /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C57215B621A0037E2EE /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C47215B62190037E2EE /* Swinject.framework */; };
+		30531C58215B621A0037E2EE /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C47215B62190037E2EE /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C59215B621A0037E2EE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C48215B62190037E2EE /* RxCocoa.framework */; };
+		30531C5A215B621A0037E2EE /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C48215B62190037E2EE /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C5B215B621A0037E2EE /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C49215B62190037E2EE /* FontAwesomeKit.framework */; };
+		30531C5C215B621A0037E2EE /* FontAwesomeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C49215B62190037E2EE /* FontAwesomeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C5D215B621A0037E2EE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4A215B62190037E2EE /* RealmSwift.framework */; };
+		30531C5E215B621A0037E2EE /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4A215B62190037E2EE /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C5F215B621A0037E2EE /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4B215B62190037E2EE /* SwiftyBeaver.framework */; };
+		30531C60215B621A0037E2EE /* SwiftyBeaver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4B215B62190037E2EE /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30531C61215B621A0037E2EE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4C215B62190037E2EE /* Realm.framework */; };
+		30531C62215B621A0037E2EE /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30531C4C215B62190037E2EE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35F8BA34BC78FCDACB39146C /* Pods_SwiftProjectMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D433967805FEE2B64733D9 /* Pods_SwiftProjectMemo.framework */; };
 		7E53FB0AC40DA06F20614AB5 /* Pods_SwiftProjectMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5D706B36605BA14716DD10 /* Pods_SwiftProjectMemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +58,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		30531C63215B621A0037E2EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30531C54215B621A0037E2EE /* RxSwift.framework in Embed Frameworks */,
+				30531C4E215B62190037E2EE /* SwiftyJSON.framework in Embed Frameworks */,
+				30531C5E215B621A0037E2EE /* RealmSwift.framework in Embed Frameworks */,
+				30531C5A215B621A0037E2EE /* RxCocoa.framework in Embed Frameworks */,
+				30531C52215B62190037E2EE /* Alamofire.framework in Embed Frameworks */,
+				30531C60215B621A0037E2EE /* SwiftyBeaver.framework in Embed Frameworks */,
+				30531C5C215B621A0037E2EE /* FontAwesomeKit.framework in Embed Frameworks */,
+				30531C58215B621A0037E2EE /* Swinject.framework in Embed Frameworks */,
+				30531C50215B62190037E2EE /* RxBlocking.framework in Embed Frameworks */,
+				30531C56215B621A0037E2EE /* SnapKit.framework in Embed Frameworks */,
+				30531C62215B621A0037E2EE /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2892D38E8623C625EC6C197F /* Pods-SwiftProjectMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectMemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectMemoTests/Pods-SwiftProjectMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		30161942215B571800765C4B /* SwiftProjectMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +100,19 @@
 		30161973215B575C00765C4B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		30161974215B57B300765C4B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		30161976215B582000765C4B /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		30531C27215B5C5D0037E2EE /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		30531C28215B5C910037E2EE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		30531C42215B62190037E2EE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		30531C43215B62190037E2EE /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		30531C44215B62190037E2EE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		30531C45215B62190037E2EE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		30531C46215B62190037E2EE /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		30531C47215B62190037E2EE /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		30531C48215B62190037E2EE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		30531C49215B62190037E2EE /* FontAwesomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeKit.framework; path = Carthage/Build/iOS/FontAwesomeKit.framework; sourceTree = "<group>"; };
+		30531C4A215B62190037E2EE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		30531C4B215B62190037E2EE /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		30531C4C215B62190037E2EE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		4DEBE072DC8056C8F4CF1349 /* Pods-SwiftProjectMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectMemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectMemo/Pods-SwiftProjectMemo.release.xcconfig"; sourceTree = "<group>"; };
 		4E956ED2595BA4A7D534D715 /* Pods_SwiftProjectMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5D706B36605BA14716DD10 /* Pods_SwiftProjectMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +128,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30531C61215B621A0037E2EE /* Realm.framework in Frameworks */,
+				30531C53215B621A0037E2EE /* RxSwift.framework in Frameworks */,
+				30531C5F215B621A0037E2EE /* SwiftyBeaver.framework in Frameworks */,
+				30531C57215B621A0037E2EE /* Swinject.framework in Frameworks */,
+				30531C4D215B62190037E2EE /* SwiftyJSON.framework in Frameworks */,
 				35F8BA34BC78FCDACB39146C /* Pods_SwiftProjectMemo.framework in Frameworks */,
+				30531C59215B621A0037E2EE /* RxCocoa.framework in Frameworks */,
+				30531C55215B621A0037E2EE /* SnapKit.framework in Frameworks */,
+				30531C5D215B621A0037E2EE /* RealmSwift.framework in Frameworks */,
+				30531C5B215B621A0037E2EE /* FontAwesomeKit.framework in Frameworks */,
+				30531C4F215B62190037E2EE /* RxBlocking.framework in Frameworks */,
+				30531C51215B62190037E2EE /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +175,19 @@
 		30161939215B571800765C4B = {
 			isa = PBXGroup;
 			children = (
+				30531C44215B62190037E2EE /* Alamofire.framework */,
+				30531C49215B62190037E2EE /* FontAwesomeKit.framework */,
+				30531C4C215B62190037E2EE /* Realm.framework */,
+				30531C4A215B62190037E2EE /* RealmSwift.framework */,
+				30531C43215B62190037E2EE /* RxBlocking.framework */,
+				30531C48215B62190037E2EE /* RxCocoa.framework */,
+				30531C45215B62190037E2EE /* RxSwift.framework */,
+				30531C46215B62190037E2EE /* SnapKit.framework */,
+				30531C4B215B62190037E2EE /* SwiftyBeaver.framework */,
+				30531C42215B62190037E2EE /* SwiftyJSON.framework */,
+				30531C47215B62190037E2EE /* Swinject.framework */,
+				30531C28215B5C910037E2EE /* Podfile */,
+				30531C27215B5C5D0037E2EE /* Cartfile */,
 				30161976215B582000765C4B /* Gemfile */,
 				30161974215B57B300765C4B /* .swiftlint.yml */,
 				30161973215B575C00765C4B /* .gitignore */,
@@ -183,6 +266,7 @@
 				3016193F215B571800765C4B /* Frameworks */,
 				30161940215B571800765C4B /* Resources */,
 				30161975215B57D200765C4B /* SwiftLint */,
+				30531C63215B621A0037E2EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -571,6 +655,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftProjectMemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -589,6 +677,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftProjectMemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
