@@ -175,8 +175,19 @@
 		30161939215B571800765C4B = {
 			isa = PBXGroup;
 			children = (
+				264EC6FD5B17EE1F9EA79C48 /* Frameworks */,
+				65592B9CB5C8536EE2324C33 /* Pods */,
+				30161943215B571800765C4B /* Products */,
+				30161944215B571800765C4B /* SwiftProjectMemo */,
+				30161959215B571900765C4B /* SwiftProjectMemoTests */,
+				30161964215B571A00765C4B /* SwiftProjectMemoUITests */,
+				30161973215B575C00765C4B /* .gitignore */,
+				30161974215B57B300765C4B /* .swiftlint.yml */,
 				30531C44215B62190037E2EE /* Alamofire.framework */,
+				30531C27215B5C5D0037E2EE /* Cartfile */,
 				30531C49215B62190037E2EE /* FontAwesomeKit.framework */,
+				30161976215B582000765C4B /* Gemfile */,
+				30531C28215B5C910037E2EE /* Podfile */,
 				30531C4C215B62190037E2EE /* Realm.framework */,
 				30531C4A215B62190037E2EE /* RealmSwift.framework */,
 				30531C43215B62190037E2EE /* RxBlocking.framework */,
@@ -186,17 +197,6 @@
 				30531C4B215B62190037E2EE /* SwiftyBeaver.framework */,
 				30531C42215B62190037E2EE /* SwiftyJSON.framework */,
 				30531C47215B62190037E2EE /* Swinject.framework */,
-				30531C28215B5C910037E2EE /* Podfile */,
-				30531C27215B5C5D0037E2EE /* Cartfile */,
-				30161976215B582000765C4B /* Gemfile */,
-				30161974215B57B300765C4B /* .swiftlint.yml */,
-				30161973215B575C00765C4B /* .gitignore */,
-				30161944215B571800765C4B /* SwiftProjectMemo */,
-				30161959215B571900765C4B /* SwiftProjectMemoTests */,
-				30161964215B571A00765C4B /* SwiftProjectMemoUITests */,
-				30161943215B571800765C4B /* Products */,
-				65592B9CB5C8536EE2324C33 /* Pods */,
-				264EC6FD5B17EE1F9EA79C48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,11 +214,11 @@
 			isa = PBXGroup;
 			children = (
 				30161945215B571800765C4B /* AppDelegate.swift */,
-				30161947215B571800765C4B /* ViewController.swift */,
-				30161949215B571800765C4B /* Main.storyboard */,
 				3016194C215B571900765C4B /* Assets.xcassets */,
-				3016194E215B571900765C4B /* LaunchScreen.storyboard */,
 				30161951215B571900765C4B /* Info.plist */,
+				3016194E215B571900765C4B /* LaunchScreen.storyboard */,
+				30161949215B571800765C4B /* Main.storyboard */,
+				30161947215B571800765C4B /* ViewController.swift */,
 			);
 			path = SwiftProjectMemo;
 			sourceTree = "<group>";
@@ -226,8 +226,8 @@
 		30161959215B571900765C4B /* SwiftProjectMemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3016195A215B571900765C4B /* SwiftProjectMemoTests.swift */,
 				3016195C215B571900765C4B /* Info.plist */,
+				3016195A215B571900765C4B /* SwiftProjectMemoTests.swift */,
 			);
 			path = SwiftProjectMemoTests;
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 		30161964215B571A00765C4B /* SwiftProjectMemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				30161965215B571A00765C4B /* SwiftProjectMemoUITests.swift */,
 				30161967215B571A00765C4B /* Info.plist */,
+				30161965215B571A00765C4B /* SwiftProjectMemoUITests.swift */,
 			);
 			path = SwiftProjectMemoUITests;
 			sourceTree = "<group>";
@@ -520,6 +520,7 @@
 				3016194A215B571800765C4B /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		3016194E215B571900765C4B /* LaunchScreen.storyboard */ = {
@@ -528,6 +529,7 @@
 				3016194F215B571900765C4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
