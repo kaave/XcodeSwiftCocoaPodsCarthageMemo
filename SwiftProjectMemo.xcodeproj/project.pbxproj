@@ -111,6 +111,9 @@
 		30531C4A215B62190037E2EE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		30531C4B215B62190037E2EE /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
 		30531C4C215B62190037E2EE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		30531C64215B69130037E2EE /* SwiftProjectMemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftProjectMemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		30531C67215B692B0037E2EE /* SwiftProjectMemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftProjectMemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30531C6A215B69440037E2EE /* SwiftProjectMemoUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftProjectMemoUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DEBE072DC8056C8F4CF1349 /* Pods-SwiftProjectMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectMemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectMemo/Pods-SwiftProjectMemo.release.xcconfig"; sourceTree = "<group>"; };
 		4E956ED2595BA4A7D534D715 /* Pods_SwiftProjectMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5D706B36605BA14716DD10 /* Pods_SwiftProjectMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +218,7 @@
 				3016194C215B571900765C4B /* Assets.xcassets */,
 				30161951215B571900765C4B /* Info.plist */,
 				3016194E215B571900765C4B /* LaunchScreen.storyboard */,
+				30531C64215B69130037E2EE /* SwiftProjectMemo-Bridging-Header.h */,
 				30161947215B571800765C4B /* ViewController.swift */,
 			);
 			path = SwiftProjectMemo;
@@ -224,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				3016195C215B571900765C4B /* Info.plist */,
+				30531C67215B692B0037E2EE /* SwiftProjectMemoTests-Bridging-Header.h */,
 				3016195A215B571900765C4B /* SwiftProjectMemoTests.swift */,
 			);
 			path = SwiftProjectMemoTests;
@@ -233,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				30161967215B571A00765C4B /* Info.plist */,
+				30531C6A215B69440037E2EE /* SwiftProjectMemoUITests-Bridging-Header.h */,
 				30161965215B571A00765C4B /* SwiftProjectMemoUITests.swift */,
 			);
 			path = SwiftProjectMemoUITests;
@@ -324,13 +330,16 @@
 				TargetAttributes = {
 					30161941215B571800765C4B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					30161955215B571900765C4B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 30161941215B571800765C4B;
 					};
 					30161960215B571A00765C4B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 30161941215B571800765C4B;
 					};
 				};
@@ -643,6 +652,7 @@
 			baseConfigurationReference = BF38A687C9462063D2B79664 /* Pods-SwiftProjectMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,6 +665,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemo/SwiftProjectMemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,6 +677,7 @@
 			baseConfigurationReference = 4DEBE072DC8056C8F4CF1349 /* Pods-SwiftProjectMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,6 +690,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemo/SwiftProjectMemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -688,6 +702,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftProjectMemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,6 +712,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemoTests/SwiftProjectMemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectMemo.app/SwiftProjectMemo";
@@ -709,6 +726,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftProjectMemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -718,6 +736,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemoTests/SwiftProjectMemoTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectMemo.app/SwiftProjectMemo";
@@ -729,6 +748,7 @@
 			baseConfigurationReference = E6E49B66CA967120F6DC8B1D /* Pods-SwiftProjectMemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftProjectMemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -738,6 +758,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemoUITests/SwiftProjectMemoUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftProjectMemo;
@@ -749,6 +771,7 @@
 			baseConfigurationReference = 7D0CA00BB18BE80E8DC5F250 /* Pods-SwiftProjectMemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftProjectMemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -758,6 +781,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.kaave.SwiftProjectMemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftProjectMemoUITests/SwiftProjectMemoUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftProjectMemo;
