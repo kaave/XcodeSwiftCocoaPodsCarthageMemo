@@ -22,7 +22,6 @@ excluded:
 # デフォ有効のうち無効化するルール
 disabled_rules:
 - todo
-- variable_name
 - cyclomatic_complexity
 - weak_delegate
 
@@ -35,9 +34,9 @@ disabled_rules:
 
 # 1つだけだとwarningの設定値となる。errorはなし
 line_length: 360
-variable_name:
-min_length:
-warning: 2
+identifier_name:
+  min_length:
+    warning: 2
 
 
 # 2つ書くと1つ目がwarning, 2つ目がerror
