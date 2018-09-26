@@ -1,0 +1,6 @@
+framework module Pods_SwiftProjectMemo {
+  umbrella header "Pods-SwiftProjectMemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
